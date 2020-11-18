@@ -1,5 +1,5 @@
 <!-- index.wxml -->
 <view class="container">
-  <button bindtap="handleNavigate" data-url="/pages/z-index/index" class="button-normal">z-index规则尝试DEMO</button>
+  <button bindtap="handleNavigate" data-url="/package-z-index/pages/index/index" class="button-normal">z-index规则尝试DEMO</button>
   <button bindtap="handleNavigate" data-url="/pages/wxss-var/index" class="button-normal">样式属性作用域DEMO</button>
 </view>

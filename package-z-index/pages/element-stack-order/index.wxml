@@ -20,6 +20,7 @@
         <view class="normal-element normal-element-5">
             <view>view #5</view>
             <view>no position (static)</view>
+            <text>This is a text element, and it is an inline element. I want to see whether this element will cover the element-6 or not.</text>
         </view>
         <view class="float-element float-element-6">
             <view>view #6</view>
@@ -27,7 +28,7 @@
         </view>
         <view class="normal-element normal-element-7">
             <view>view #7</view>
-            <text>no position (static) and test inline element</text>
+            <text>no position (static)</text>
         </view>
     </view>
 </view>

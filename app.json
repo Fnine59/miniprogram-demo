@@ -1,8 +1,17 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/z-index/index",
     "pages/wxss-var/index"
+  ],
+  "subpackages": [
+    {
+      "root": "package-z-index",
+      "pages": [
+        "pages/index/index",
+        "pages/element-stack-order/index",
+        "pages/z-index-order/index"
+      ]
+    }
   ],
   "window":{
     "backgroundTextStyle":"light",

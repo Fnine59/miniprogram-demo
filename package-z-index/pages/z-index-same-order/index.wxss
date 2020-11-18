@@ -1,0 +1,30 @@
+@import '../../common/index.wxss';
+
+.rel-element-1 {
+  width: 300rpx;
+  height: 400rpx;
+  z-index: 6;
+}
+
+.abs-element-2 {
+  width: 380rpx;
+  height: 280rpx;
+  top: 200rpx;
+  left: 280rpx;
+  z-index: 5;
+}
+
+.abs-element-3 {
+  width: 45%;
+  height: 200rpx;
+  margin: -40rpx 0rpx 0rpx 50rpx;
+  z-index: 6;
+}
+
+.rel-element-4 {
+  width: 80%;
+  height: 300rpx;
+  margin: -150rpx 0rpx 0rpx 140rpx;
+  z-index: 5;
+}
+

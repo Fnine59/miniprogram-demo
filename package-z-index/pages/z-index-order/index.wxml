@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="sub-container-title">z-index改写堆叠顺序</view>
+    <view class="container-opacity">
+        <view class="rel-element rel-element-1">
+            <view>view #1</view>
+            <view>position: relative</view>
+            <view>z-index: 8</view>
+        </view>
+        <view class="abs-element abs-element-2">
+            <view>view #2</view>
+            <view>position: absolute</view>
+            <view>z-index: 7</view>
+        </view>
+        <view class="abs-element abs-element-3">
+            <view>view #3</view>
+            <view>position: absolute</view>
+            <view>z-index: 6</view>
+        </view>
+        <view class="rel-element rel-element-4">
+            <view>view #4</view>
+            <view>position: relative</view>
+            <view>z-index: 5</view>
+        </view>
+        <view class="normal-element normal-element-5">
+            <view>view #5</view>
+            <view>no position (static)</view>
+            <view>z-index: 10</view>
+        </view>
+        <view class="float-element float-element-6">
+            <view>view #6</view>
+            <view>float: left</view>
+            <view>z-index: 9</view>
+        </view>
+        <view class="normal-element normal-element-7">
+            <view>view #7</view>
+            <view>z-index: 2</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="container-title">z-index demo汇总</view>
+  <button bindtap="handleNavigate" data-url="/package-z-index/pages/element-stack-order/index" class="button-normal">
+    各类元素堆叠规则
+  </button>
+  <button bindtap="handleNavigate" data-url="/package-z-index/pages/z-index-order/index" class="button-normal">
+    z-index改写堆叠顺序
+  </button>
+  <button bindtap="handleNavigate" data-url="/package-z-index/pages/z-index-same-order/index" class="button-normal">
+    设置相同z-index值
+  </button>
+</view>

@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="sub-container-title">相同z-index堆叠顺序</view>
+    <view class="container-opacity">
+        <view class="rel-element rel-element-1">
+            <view>view #1</view>
+            <view>position: relative</view>
+            <view>z-index: 6</view>
+        </view>
+        <view class="abs-element abs-element-2">
+            <view>view #2</view>
+            <view>position: absolute</view>
+            <view>z-index: 5</view>
+        </view>
+        <view class="abs-element abs-element-3">
+            <view>view #3</view>
+            <view>position: absolute</view>
+            <view>z-index: 6</view>
+        </view>
+        <view class="rel-element rel-element-4">
+            <view>view #4</view>
+            <view>position: relative</view>
+            <view>z-index: 5</view>
+        </view>
+    </view>
+</view>

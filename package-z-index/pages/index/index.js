@@ -1,7 +1,7 @@
 Page({
   data: {},
   onLoad: function () {
-    console.log('index page onload...')
+    console.log('z-index-demo page onload...')
   },
   /**
    * 页面跳转方法
