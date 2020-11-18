@@ -1,8 +1,53 @@
 <view class="container">
     <view class="sub-container">
         <view class="sub-container-title">none-zindex</view>
-        <view>
-            
+        <view class="rel-view rel-view-1">
+            <view>view #1</view>
+            <view>position: relative</view>
+        </view>
+        <view class="abs-view abs-view-2">
+            <view>view #2</view>
+            <view>position: absolute</view>
+        </view>
+        <view class="abs-view abs-view-3">
+            <view>view #3</view>
+            <view>position: absolute</view>
+        </view>
+        <view class="rel-view rel-view-4">
+            <view>view #4</view>
+            <view>position: relative</view>
+        </view>
+        <view class="normal-view normal-view-5">
+            <view>view #5</view>
+            <view>no position (static)</view>
+        </view>
+        <view class="float-view float-view-6">
+            <view>view #6</view>
+            <view>float: left</view>
+        </view>
+    </view>
+
+    <view class="sub-container">
+        <view class="sub-container-title">none-zindex</view>
+        <view class="rel-view rel-view-1">
+            <view>view #1</view>
+            <view>position: relative</view>
+        </view>
+        <view class="rel-view rel-view-2">
+            <view>view #2</view>
+            <view>position: relative</view>
+        </view>
+        <view class="abs-view abs-view-3">
+            <view>view #3</view>
+            <view>position: absolute</view>
+        </view>
+        <view class="abs-view abs-view-4">
+            <view>view #4</view>
+            <view>position: absolute</view>
+        </view>
+        <view class="normal-view normal-view-5">
+            <view>view #5</view>
+            <view>no position (static)</view>
         </view>
     </view>
 </view>
