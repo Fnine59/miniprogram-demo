@@ -1,13 +1,5 @@
-<!--index.wxml-->
+<!-- index.wxml -->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <button bindtap="handleNavigate" data-url="/pages/z-index/index" class="button-normal">z-index规则尝试DEMO</button>
+  <button bindtap="handleNavigate" data-url="/pages/wxss-var/index" class="button-normal">样式属性作用域DEMO</button>
 </view>

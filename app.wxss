@@ -1,10 +1,17 @@
-/**app.wxss**/
 .container {
   height: 100%;
+  padding: 30rpx 50rpx;
+}
+
+.sub-container {
+  width: 100vw - 100rpx;
+  border: 1rpx solid #ccc;
+  padding: 20rpx;
+}
+
+.sub-container-title {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  justify-content: center;
+  font-size: 26rpx;
+}
