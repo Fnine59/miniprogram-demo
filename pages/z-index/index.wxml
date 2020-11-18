@@ -1,53 +1,33 @@
 <view class="container">
-    <view class="sub-container">
-        <view class="sub-container-title">none-zindex</view>
-        <view class="rel-view rel-view-1">
+    <view class="sub-container-title">各类元素堆叠顺序</view>
+    <view class="container-opacity">
+        <view class="rel-element rel-element-1">
             <view>view #1</view>
             <view>position: relative</view>
         </view>
-        <view class="abs-view abs-view-2">
+        <view class="abs-element abs-element-2">
             <view>view #2</view>
             <view>position: absolute</view>
         </view>
-        <view class="abs-view abs-view-3">
+        <view class="abs-element abs-element-3">
             <view>view #3</view>
             <view>position: absolute</view>
         </view>
-        <view class="rel-view rel-view-4">
+        <view class="rel-element rel-element-4">
             <view>view #4</view>
             <view>position: relative</view>
         </view>
-        <view class="normal-view normal-view-5">
+        <view class="normal-element normal-element-5">
             <view>view #5</view>
             <view>no position (static)</view>
         </view>
-        <view class="float-view float-view-6">
+        <view class="float-element float-element-6">
             <view>view #6</view>
             <view>float: left</view>
         </view>
-    </view>
-
-    <view class="sub-container">
-        <view class="sub-container-title">none-zindex</view>
-        <view class="rel-view rel-view-1">
-            <view>view #1</view>
-            <view>position: relative</view>
-        </view>
-        <view class="rel-view rel-view-2">
-            <view>view #2</view>
-            <view>position: relative</view>
-        </view>
-        <view class="abs-view abs-view-3">
-            <view>view #3</view>
-            <view>position: absolute</view>
-        </view>
-        <view class="abs-view abs-view-4">
-            <view>view #4</view>
-            <view>position: absolute</view>
-        </view>
-        <view class="normal-view normal-view-5">
-            <view>view #5</view>
-            <view>no position (static)</view>
+        <view class="normal-element normal-element-7">
+            <view>view #7</view>
+            <text>no position (static) and test inline element</text>
         </view>
     </view>
 </view>
