@@ -1,7 +1,6 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/wxss-var/index"
+  "pages": [
+    "pages/index/index"
   ],
   "subpackages": [
     {
@@ -11,13 +10,25 @@
         "pages/element-stack-order/index",
         "pages/z-index-order/index"
       ]
+    },
+    {
+      "root": "package-hidden",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "package-style-var",
+      "pages": [
+        "pages/index/index"
+      ]
     }
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

@@ -1,0 +1,13 @@
+/* package-style-var/pages/index/index.wxss */
+.style-var-container {
+  color: purple;
+  font-size: 26rpx;
+  padding: 10rpx;
+}
+
+.style-var-container-with-variable {
+  color: var(--fontColor);
+  border: 1rpx dashed #CCC;
+  padding: 30rpx;
+  margin: 10rpx;
+}

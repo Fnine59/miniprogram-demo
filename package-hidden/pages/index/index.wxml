@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="sub-container">
+        <!-- <view class="hidden-element margin-bottom-normal" hidden="{{isHidden}}">设置hidden属性的view</view> -->
+        <!-- <text class="hidden-element" hidden="{{isHidden}}">设置hidden属性的text</text> -->
+        <view class="dispaly-element" style="display: {{isHidden ? 'none' : 'block'}}">设置display属性的view</view>
+        <!-- <view class="visible-element margin-top-normal" style="visibility: {{isHidden ? 'hidden' : ''}}">设置visibility属性的view</view> -->
+        <!-- <view wx:if="{{!isHidden}}" class="if-element margin-top-normal">设置wx:if属性的view</view> -->
+    </view>
+    <button class="button-normal" bind:tap="toggle">点击切换元素hidden状态: {{isHidden ? '隐藏' : '显示'}}</button>
+</view>

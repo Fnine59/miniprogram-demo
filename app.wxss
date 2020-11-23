@@ -37,3 +37,19 @@
   font-size: 30rpx;
   font-weight: normal;
 }
+
+.margin-top-normal {
+  margin-top: 20rpx;
+}
+
+.margin-bottom-normal {
+  margin-bottom: 20rpx;
+}
+
+.margin-left-normal {
+  margin-left: 20rpx;
+}
+
+.margin-right-normal {
+  margin-right: 20rpx;
+}

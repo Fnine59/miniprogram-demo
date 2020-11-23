@@ -1,0 +1,10 @@
+<!--package-style-var/pages/index/index.wxml-->
+<view class="style-var-container">
+  <text>This is purple font!</text>
+  <view class="style-var-container-with-variable">
+    <text>This is var(--fontColor), but hasn't declare --fontColor yet!</text>
+    <view style="--fontColor: {{newColor}}" class="style-var-container-with-variable">
+      <text>This is var(--fontColor), and --fontColor is declared!</text>
+    </view>
+  </view>
+</view>
